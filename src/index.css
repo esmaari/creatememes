@@ -1,0 +1,106 @@
+body {
+  font-family: 'Comic Neue', cursive;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5c1fc;
+  color: #FD75B6;
+}
+
+header img {
+  min-width: 64px;
+  height: 64px;
+}
+
+.formContainer {
+  background-color: #efe9fc;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  display: grid;
+  padding: 24px;
+}
+
+form {
+  display: grid;
+}
+
+form label {
+  margin-bottom: 4px;
+  color: #FD75B6;
+}
+form input {
+  height: 24px;
+  margin-bottom: 12px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 0 2px #FD75B6;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.get-img-btn {
+  background-color: #FD75B6;
+  color: #ffffff;
+  height: 40px;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  max-width: 180px;
+  margin: auto;
+}
+
+.meme-container {
+  position: relative;
+  border: 2px solid #fd75b6;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme-container p {
+  position: absolute;
+  text-align: center;
+  margin-block: 15px;
+  padding-inline: 5px;
+  font-family: impact, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.top-text {
+  top: 0
+}
+
+.bottom-text {
+  bottom: 0
+}
+
+.meme-container img {
+  width: 100%;
+}
+
+.credits {
+  font-size: 1rem;
+  color: #f20000;
+  margin-top: 1rem;
+  text-align: center;
+}
