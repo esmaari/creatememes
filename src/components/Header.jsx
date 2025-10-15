@@ -1,4 +1,4 @@
-import logo from '/src/assets/creatememesLogo.png'
+import logo from '/creatememesLogo.png'
 
 export default function Header() {
     return(

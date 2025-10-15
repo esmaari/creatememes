@@ -4,7 +4,7 @@ export default function Main() {
     const [meme, setMeme] = useState({
         topText:'This is a top text',
         bottomText:'This is a bottom text',
-        img: '/src/assets/creatememesLogo.png'
+        img: '/creatememesLogo.png'
     })
 
     const [allMemes, setAllMemes] = useState([])
