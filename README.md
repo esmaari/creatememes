@@ -27,7 +27,7 @@ It is intended solely as a frontend development learning exercise.
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/esmaari/create-memes.git
+git clone https://github.com/esmaari/creatememes.git
 cd create-memes
 npm install
 npm run dev
